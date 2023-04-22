@@ -28,16 +28,16 @@ module.exports = () => {
       swDest: 'src-sw.js',
     }),
     new WebpackPwaManifest({
-      name: 'TODOs',
-      short_name: 'TODOs',
-      description: 'Keep track of important tasks!',
+      name: 'Jate',
+      short_name: 'Jate',
+      description: 'Online text editor',
       background_color: '#7eb4e2',
       theme_color: '#7eb4e2',
       start_url: './',
       publicPath: './',
       icons: [
         {
-          src: path.resolve('assets/images/logo.png'),
+          src: path.resolve('src/images/logo.png'),
           sizes: [96, 128, 192, 256, 384, 512],
           destination: path.join('assets', 'icons'),
         },
